@@ -6,6 +6,24 @@ You can create and edit text notes directly in the terminal — colorful, lightw
 > ⚠️ **Status:** In Development  
 > Currently, I wrote only option 1. "Add & open new note file" is functional.
 
+### ✅ Version 1 (Initial)
+- Basic file creation using Python's `open()` function.
+- Checked for existing files before creation.
+- Simple text-based menu with one option.
+
+### 🚀 Version 2 (Updated)
+- Added **view and remove file content** option.
+- Added **delete file** functionality.
+- Added **5 menu option and** (not functional yet)
+- Improved **menu system** with multiple options:
+  -  → Create a new file  
+  -  → View an existing file  
+  -  → Clear Contents of an existing file  
+  -  → Delete a file  
+  -  → Exit the program
+- Added slight **delays** for better user experience.
+- Cleaner terminal output and improved prompts.
+- ⚙️ **.2.2 submenu still not functional**
 
 ## 🚀 Features
 - Create and save notes
@@ -26,10 +44,32 @@ pip install -r requirements.txt
 python main.py
 ```
 
-## 🧠 Note
+🧠 Notes
 
-This is part of a personal learning project — the goal is to practice:
+This project is part of my personal Python learning journey.
+The main learning goals are:
 
-Python OOP
-File handling
-Terminal UI with colorama
+Python file handling
+
+Modular programming
+
+Terminal UI design using Colorama
+
+
+📦 Next Step Ideas
+
+Add search through notes
+
+Removing a certain part of a note
+
+Add export all notes to one file
+
+List all note files
+
+Create a GUI version later using Tkinter or PyQt
+
+
+Author: F3L
+Platform: Linux
+Environment: Virtualenv (venv)
+Status: Ongoing Development 🚧
