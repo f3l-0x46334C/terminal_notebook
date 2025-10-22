@@ -4,7 +4,7 @@ A simple command-line notebook built with Python.
 You can create and edit text notes directly in the terminal — colorful, lightweight, and fast!
 
 > ⚠️ **Status:** In Development  
-> Currently, I wrote only option 1. "Add & open new note file" is functional.
+
 
 ### ✅ Version 1 (Initial)
 - Basic file creation using Python's `open()` function.
@@ -14,7 +14,7 @@ You can create and edit text notes directly in the terminal — colorful, lightw
 ### 🚀 Version 2 (Updated)
 - Added **view and remove file content** option.
 - Added **delete file** functionality.
-- Added **5 menu option and** (not functional yet)
+- Added **5 menu option** (not functional yet)
 - Improved **menu system** with multiple options:
   -  → Create a new file  
   -  → View an existing file  
@@ -44,7 +44,7 @@ pip install -r requirements.txt
 python main.py
 ```
 
-🧠 Notes
+## 🧠 Notes
 
 This project is part of my personal Python learning journey.
 The main learning goals are:
@@ -56,7 +56,7 @@ Modular programming
 Terminal UI design using Colorama
 
 
-📦 Next Step Ideas
+## 📦 Next Step Ideas
 
 Add search through notes
 
@@ -68,6 +68,7 @@ List all note files
 
 Create a GUI version later using Tkinter or PyQt
 
+------------------------------
 
 Author: F3L
 Platform: Linux
